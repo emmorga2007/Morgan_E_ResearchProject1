@@ -13,11 +13,11 @@ $allUsers = $userFunctions->allUsers();
 var_dump($allUsers);
 
 // get one user by first name and email
-$user = $userFunctions->getUser('Emily', 'emily189morgan@gmail.com');
+$user = $userFunctions->getUser('Emily', 'emily@gmail.com');
 var_dump($user);
 
 // create new user, needs all table items except id
-$createUser = $userFunctions->createUser('Emily', 'Morgan', 'emily189morgan@gmail.com', '1');
+$createUser = $userFunctions->createUser('Emily', 'Morgan', 'emily@gmail.com', '1');
 var_dump($createUser);
 
 // delete user with id
